@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1004549487873",
+    "project_id": "cosmicmathquests",
+    "storage_bucket": "cosmicmathquests.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004549487873:android:547e3b66c481be29ceef00",
+        "android_client_info": {
+          "package_name": "com.cosmicmathquests.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmM1BZxCn91ZjdD4Rq69e6RnGZvZ7C7MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
