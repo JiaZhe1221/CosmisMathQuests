@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 [System.Serializable]
 public class PlayerGameData
-{ 
+{
     public string UserID;
     public string Username;
     public string Email;
@@ -12,6 +12,7 @@ public class PlayerGameData
     public string Bio;
 
     public List<PlanetProgress> Planets = new List<PlanetProgress>();
+    public List<Screenshot> Screenshots = new List<Screenshot>();
 
     public float AudioVolume;
 
@@ -44,6 +45,21 @@ public class PlayerGameData
         {
             PlanetName = planetName;
             TimeTaken = 0f;
+        }
+    }
+
+    [System.Serializable]
+    public class Screenshot
+    {
+        public string ScreenshotName;
+        public DateTime TakenAt;
+        public string Url;
+
+        public Screenshot(string screenshotName, string url)
+        {
+            ScreenshotName = screenshotName;
+            TakenAt = DateTime.Now;
+            Url = url;
         }
     }
 }

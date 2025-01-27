@@ -63,6 +63,7 @@ public class LoginManager : MonoBehaviour
             {
                 string userID = signInResult.User.UserId;
                 await RetrievePlayerData(userID);
+                Debug.Log(playerData.UserID);
                 return "Login successful!";
             }
             else
@@ -75,7 +76,6 @@ public class LoginManager : MonoBehaviour
             return "Invalid credentials. Please check your email and password.";
         }
     }
-
 
     private async Task RetrievePlayerData(string userID)
     {
@@ -90,6 +90,8 @@ public class LoginManager : MonoBehaviour
             if (snapshot.Exists)
             {
                 playerData = JsonUtility.FromJson<PlayerGameData>(snapshot.GetRawJsonValue());
+                PlayerDataManager.Instance.SetPlayerData(playerData);
+
                 Debug.Log("Player data retrieved successfully.");
             }
             else
@@ -102,4 +104,5 @@ public class LoginManager : MonoBehaviour
             Debug.LogError("Failed to retrieve player data.");
         }
     }
+
 }

@@ -1,15 +1,18 @@
 ﻿<Properties StartupConfiguration="{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DDA/LogInManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DDA/PlayerDataManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/DDA/PlayerData.cs" Line="18" Column="29" />
+      <File FileName="Assets/Scripts/DDA/SignUpManager.cs" Line="27" Column="10" />
       <File FileName="Assets/Scripts/DDA/MathQuestions.cs" Line="26" Column="35" />
-      <File FileName="Assets/Scripts/DDA/FirebaseAuthManager.cs" Line="10" Column="20" />
-      <File FileName="Assets/Scripts/DDA/LogInManager.cs" Line="12" Column="5" />
+      <File FileName="Assets/Scripts/DDA/LogInManager.cs" Line="31" Column="64" />
+      <File FileName="Assets/Scripts/DDA/ScreenshotUploader.cs" Line="60" Column="1" />
+      <File FileName="Assets/Scripts/DDA/CURD_Db.cs" Line="73" Column="56" NotebookId="1" />
+      <File FileName="Assets/Scripts/DDA/PlayerData.cs" Line="42" Column="29" NotebookId="1" />
+      <File FileName="Assets/Scripts/DDA/PlayerDataManager.cs" Line="12" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ac904310-f53b-46f6-84c4-4f0ef588289c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="373dd8c1-ccdf-4f46-b0ca-522b95134354" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
