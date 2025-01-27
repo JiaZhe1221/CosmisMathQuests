@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Anchor
+  - 10Kg
+  - 1Kg
+  - 5Kg
+  - 20Kg
   layers:
   - Default
   - TransparentFX
