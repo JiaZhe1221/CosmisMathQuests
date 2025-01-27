@@ -1,3 +1,4 @@
+/*
 using System;
 using UnityEngine;
 using Firebase;
@@ -164,3 +165,4 @@ public class SignUpManager : MonoBehaviour
         return Regex.IsMatch(password, pattern);
     }
 }
+*/

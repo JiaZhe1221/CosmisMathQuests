@@ -63,18 +63,24 @@
     <Compile Include="Assets\Scripts\DDA\MathQuestions.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
+    <Compile Include="Assets\Scripts\ITD\PlanetMul\AnswerChecker.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoPlayerRenderTexture.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Rotator.cs" />
+    <Compile Include="Assets\Scripts\ITD\PlanetMul\TriggerAreaScales.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRKnob.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BooleanToggleVisualsController.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\RayAttachModifier.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
-    <Compile Include="Assets\PlanetMulAsset\Scripts\TriggerAreaScales.cs" />
+    <Compile Include="Assets\Scripts\DDA\LogInManager.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
+    <Compile Include="Assets\Scripts\ITD\PlanetMul\UIMathQuestion.cs" />
+    <Compile Include="Assets\Scripts\ITD\PlanetMul\GenerateMulMathQ.cs" />
+    <Compile Include="Assets\Scripts\DDA\SignUpManager.cs" />
+    <Compile Include="Assets\Scripts\DDA\PlayerData.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
   </ItemGroup>
   <ItemGroup>
