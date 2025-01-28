@@ -6,7 +6,9 @@ public class GenerateMulMathQ : MonoBehaviour
 {
     public MathQuestions MathQuestionGenerate; // Ref to MathQuestion Script
     public UIMathQuestion uiMathQuestion; // Reference to the UI script
-    public TriggerAreaScales TriggerAreaScales;
+    public AnswerCalculate AnswerCalculate;
+    public AnswerChecker AnswerChecker;
+    public Color neutralColor = Color.white;
 
     string question;
     int totalNum;
@@ -25,6 +27,8 @@ public class GenerateMulMathQ : MonoBehaviour
         Debug.Log("b4 update");
         uiMathQuestion.updateVariable(question, totalNum, numbers, ans);
         Debug.Log("after update");
+
+        AnswerChecker.childRenderer.material.color = neutralColor;
     }
 
     public int GetGeneratedAnswer()

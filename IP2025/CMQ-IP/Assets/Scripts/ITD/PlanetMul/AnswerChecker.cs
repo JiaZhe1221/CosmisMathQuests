@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class AnswerChecker : MonoBehaviour
 {
-    public TriggerAreaScales triggerArea;  // Reference to TriggerAreaScales script
+    public AnswerCalculate AnswerCalculate;  // Reference to AnsCal script
     public GenerateMulMathQ questionGenerator; // Reference to question generator
-    private Renderer childRenderer; // Renderer to change object color
+    public Renderer childRenderer; // Renderer to change object color
     public Color neutralColor = Color.white; // Default color 
     private void Start()
     {
@@ -24,17 +24,18 @@ public class AnswerChecker : MonoBehaviour
         {
             Debug.LogError("No Renderer found in children! Ensure the cube has a MeshRenderer.");
         }
+
     }
 
     public void CheckAnswer()
     {
-        if (triggerArea == null || questionGenerator == null)
+        if (AnswerCalculate == null || questionGenerator == null)
         {
-            Debug.LogError("Missing reference to TriggerAreaScales or GenerateMulMathQ!");
+            Debug.LogError("Missing reference to AnsweCalculate or GenerateMulMathQ!");
             return;
         }
 
-        int playerAnswer = triggerArea.Answer; // Get calculated answer from TriggerAreaScales
+        int playerAnswer = AnswerCalculate.Answer; // Get calculated answer from AnsCal
         int correctAnswer = questionGenerator.GetGeneratedAnswer(); // Get generated math answer
 
         Debug.Log("Player Answer (Rocks): " + playerAnswer);
