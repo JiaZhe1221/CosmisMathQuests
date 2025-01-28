@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using UnityEngine;
 
 public class GenerateMulMathQ : MonoBehaviour
@@ -8,7 +9,7 @@ public class GenerateMulMathQ : MonoBehaviour
     public UIMathQuestion uiMathQuestion; // Reference to the UI script
     public AnswerCalculate AnswerCalculate;
     public AnswerChecker AnswerChecker;
-    public Color neutralColor = Color.white;
+    
 
     string question;
     int totalNum;
@@ -28,7 +29,6 @@ public class GenerateMulMathQ : MonoBehaviour
         uiMathQuestion.updateVariable(question, totalNum, numbers, ans);
         Debug.Log("after update");
 
-        AnswerChecker.childRenderer.material.color = neutralColor;
     }
 
     public int GetGeneratedAnswer()

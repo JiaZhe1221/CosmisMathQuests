@@ -10,23 +10,6 @@ public class AnswerCalculate : MonoBehaviour
 
     public GenerateMulMathQ questionGenerator; // Reference to math question generator
     public AnswerChecker AnswerChecker;
-    private Renderer childRenderer; // For changing color
-    public Color neutralColor = Color.white;
-
-    private void Start()
-    {
-        // Find and assign the first child Renderer
-        Renderer[] renderers = GetComponentsInChildren<Renderer>();
-        if (renderers.Length > 0)
-        {
-            childRenderer = renderers[0];
-            childRenderer.material.color = neutralColor;
-        }
-        else
-        {
-            Debug.LogError("No Renderer found! Ensure the object has a MeshRenderer.");
-        }
-    }
 
     public void AddRock(string scaleID)
     {
