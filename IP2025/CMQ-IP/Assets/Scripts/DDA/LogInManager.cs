@@ -1,3 +1,4 @@
+/*
 using Firebase.Auth;
 using Firebase.Database;
 using Firebase.Extensions;
@@ -106,3 +107,4 @@ public class LoginManager : MonoBehaviour
     }
 
 }
+*/

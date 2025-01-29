@@ -20,7 +20,7 @@ public class MathQuestions : MonoBehaviour
         Debug.Log("Answer: " + ans);
     }
 
-    void GenerateMathQuestion(string operation, int level, out string question, out int totalNum, out List<int> numbers, out int ans)
+    public void GenerateMathQuestion(string operation, int level, out string question, out int totalNum, out List<int> numbers, out int ans)
     {
         totalNum = Random.Range(2, Mathf.Min(5, level + 2));
         numbers = new List<int>();
