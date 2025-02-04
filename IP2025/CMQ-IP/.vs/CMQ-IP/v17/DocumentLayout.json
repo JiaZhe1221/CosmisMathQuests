@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\assets\\scripts\\itd\\planetmul\\answerchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itd\\planetmul\\answerchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|c:\\yh_schwrk\\year2 sem2\\itd\\cosmismathquests\\ip2025\\cmq-ip\\assets\\scripts\\itd\\planetsub\\generatesubquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itd\\planetsub\\generatesubquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|c:\\yh_schwrk\\year2 sem2\\itd\\cosmismathquests\\ip2025\\cmq-ip\\assets\\scripts\\itd\\planetsub\\stickinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itd\\planetsub\\stickinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\assets\\scripts\\dda\\mathquestions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dda\\mathquestions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\assets\\scripts\\itd\\planetmul\\generatemulmathq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itd\\planetmul\\generatemulmathq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\assets\\scripts\\itd\\planetmul\\uimathquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itd\\planetmul\\uimathquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|c:\\yh_schwrk\\year2 sem2\\itd\\cosmismathquests\\ip2025\\cmq-ip\\assets\\scripts\\itd\\planetmul\\generatemulmathq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itd\\planetmul\\generatemulmathq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|c:\\yh_schwrk\\year2 sem2\\itd\\cosmismathquests\\ip2025\\cmq-ip\\assets\\scripts\\itd\\planetmul\\answercalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itd\\planetmul\\answercalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\assets\\scripts\\itd\\planetmul\\triggerscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itd\\planetmul\\triggerscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\assets\\scripts\\itd\\planetmul\\answerchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itd\\planetmul\\answerchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\assets\\scripts\\itd\\planetmul\\answercalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407DB361-CEFC-0116-CF3E-DCBA91DD9B32}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itd\\planetmul\\answercalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +42,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenerateSubQuestion.cs",
+              "DocumentMoniker": "C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\Assets\\Scripts\\ITD\\PlanetSub\\GenerateSubQuestion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ITD\\PlanetSub\\GenerateSubQuestion.cs",
+              "ToolTip": "C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\Assets\\Scripts\\ITD\\PlanetSub\\GenerateSubQuestion.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ITD\\PlanetSub\\GenerateSubQuestion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T02:20:08.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StickInteraction.cs",
+              "DocumentMoniker": "C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\Assets\\Scripts\\ITD\\PlanetSub\\StickInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ITD\\PlanetSub\\StickInteraction.cs",
+              "ToolTip": "C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\Assets\\Scripts\\ITD\\PlanetSub\\StickInteraction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ITD\\PlanetSub\\StickInteraction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T02:18:21.262Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -44,36 +78,33 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ITD\\PlanetMul\\TriggerScale.cs",
               "ToolTip": "C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\Assets\\Scripts\\ITD\\PlanetMul\\TriggerScale.cs",
               "RelativeToolTip": "Assets\\Scripts\\ITD\\PlanetMul\\TriggerScale.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T12:19:04.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T12:19:04.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "AnswerChecker.cs",
               "DocumentMoniker": "C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\Assets\\Scripts\\ITD\\PlanetMul\\AnswerChecker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ITD\\PlanetMul\\AnswerChecker.cs",
               "ToolTip": "C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\Assets\\Scripts\\ITD\\PlanetMul\\AnswerChecker.cs",
               "RelativeToolTip": "Assets\\Scripts\\ITD\\PlanetMul\\AnswerChecker.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwCkAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T08:13:27.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T08:13:27.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AnswerCalculate.cs",
               "DocumentMoniker": "C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\Assets\\Scripts\\ITD\\PlanetMul\\AnswerCalculate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ITD\\PlanetMul\\AnswerCalculate.cs",
               "ToolTip": "C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\Assets\\Scripts\\ITD\\PlanetMul\\AnswerCalculate.cs",
               "RelativeToolTip": "Assets\\Scripts\\ITD\\PlanetMul\\AnswerCalculate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAcAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T12:27:51.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T12:27:51.094Z"
             },
             {
               "$type": "Document",
@@ -83,14 +114,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ITD\\PlanetMul\\GenerateMulMathQ.cs",
               "ToolTip": "C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\Assets\\Scripts\\ITD\\PlanetMul\\GenerateMulMathQ.cs",
               "RelativeToolTip": "Assets\\Scripts\\ITD\\PlanetMul\\GenerateMulMathQ.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T05:48:43.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UIMathQuestion.cs",
               "DocumentMoniker": "C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\Assets\\Scripts\\ITD\\PlanetMul\\UIMathQuestion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ITD\\PlanetMul\\UIMathQuestion.cs",
@@ -103,13 +134,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MathQuestions.cs",
               "DocumentMoniker": "C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\Assets\\Scripts\\DDA\\MathQuestions.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DDA\\MathQuestions.cs",
               "ToolTip": "C:\\YH_SCHWRK\\Year2 Sem2\\ITD\\CosmisMathQuests\\IP2025\\CMQ-IP\\Assets\\Scripts\\DDA\\MathQuestions.cs",
               "RelativeToolTip": "Assets\\Scripts\\DDA\\MathQuestions.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAQAAAAqAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T09:59:17.243Z",
               "EditorCaption": ""

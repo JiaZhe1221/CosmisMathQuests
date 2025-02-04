@@ -79,6 +79,8 @@
     <Compile Include="Assets\Scripts\DDA\ScreenshotUploader.cs" />
     <Compile Include="Assets\Scripts\ITD\PlanetAdd\Box.cs" />
     <Compile Include="Assets\Scripts\DDA\CURD_Db.cs" />
+    <Compile Include="Assets\Scripts\ITD\PlanetSub\GenerateSubMathQuestion.cs" />
+    <Compile Include="Assets\Scripts\ITD\PlanetSub\StickInteraction.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
