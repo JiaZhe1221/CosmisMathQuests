@@ -89,6 +89,7 @@
     <Compile Include="Assets\Scripts\ITD\PlanetMul\AnswerCalculate.cs" />
     <Compile Include="Assets\Scripts\ITD\PlanetMul\GenerateMulMathQ.cs" />
     <Compile Include="Assets\Scripts\DDA\SignUpManager.cs" />
+    <Compile Include="Assets\Scripts\ITD\PlanetSub\TrigAreaAnsCheck.cs" />
     <Compile Include="Assets\Scripts\DDA\PlayerData.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
   </ItemGroup>

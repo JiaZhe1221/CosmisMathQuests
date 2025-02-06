@@ -4,16 +4,46 @@ using UnityEngine;
 
 public class StickInteraction : MonoBehaviour
 {
-  
-    // Start is called before the first frame update
-    void Start()
+    public GameObject stickPoint; // Assign StickPoint in the Inspector
+    public bool isActive = false; // Flag to track active state
+    public int crystalElim = 0;
+
+    public void TurnStickPointRed()
     {
-        
+        if (stickPoint != null)
+        {
+            Renderer renderer = stickPoint.GetComponent<Renderer>();
+            if (renderer != null)
+            {
+                renderer.material.color = Color.red;
+            }
+        }
+        isActive = true;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void TurnStickPointWhite()
     {
-        
+        if (stickPoint != null)
+        {
+            Renderer renderer = stickPoint.GetComponent<Renderer>();
+            if (renderer != null)
+            {
+                renderer.material.color = Color.white;
+            }
+        }
+        isActive = false;
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (isActive && collision.gameObject.CompareTag("Crystal")) 
+        { 
+            Destroy(collision.gameObject);
+
+            crystalElim ++;
+
+            Debug.Log(crystalElim);
+        }
+    }
+
 }

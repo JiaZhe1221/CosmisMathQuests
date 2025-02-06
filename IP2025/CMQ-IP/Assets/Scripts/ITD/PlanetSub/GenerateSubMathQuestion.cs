@@ -6,6 +6,7 @@ public class GenerateSubMathQuestion : MonoBehaviour
 {
     public MathQuestions MathQuestions;
     public UIMathQuestion UiMathQuestion;
+    public TrigAreaAnsCheck TrigAreaAnsCheck;
     public GameObject objectPrefab; // Assign your prefab in the Inspector
     public Transform spawnArea; // Define the area where objects should spawn
 
@@ -14,10 +15,13 @@ public class GenerateSubMathQuestion : MonoBehaviour
     int ans;
     List<int> numbers;
 
+    public int spawnObj;
+
     private void Start()
     {
         GenerateSubQuestion();
         UiMathQuestion.updateUI();
+        TrigAreaAnsCheck.InitializeCrystalAmount();
     }
 
     public void GenerateSubQuestion()
@@ -43,8 +47,9 @@ public class GenerateSubMathQuestion : MonoBehaviour
 
     private void SpawnObjects()
     {
-        int spawnCount = ans + Random.Range(2,5); // Ensures count is more than ans
-        Debug.Log("Spawning " + spawnCount);
+        int spawnCount = ans + Random.Range(2,10); // Ensures count is more than ans
+        spawnObj = spawnCount;
+        Debug.Log("Spawning " + spawnCount + "and spawnobj " + spawnObj);
 
         for (int i = 0; i < spawnCount; i++)
         {
