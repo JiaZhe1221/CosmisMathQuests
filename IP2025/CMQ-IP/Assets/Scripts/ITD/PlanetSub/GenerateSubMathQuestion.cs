@@ -12,7 +12,7 @@ public class GenerateSubMathQuestion : MonoBehaviour
 
     string question;
     int totalNum;
-    int ans;
+    public int ans;
     List<int> numbers;
 
     public int spawnObj;
@@ -21,7 +21,7 @@ public class GenerateSubMathQuestion : MonoBehaviour
     {
         GenerateSubQuestion();
         UiMathQuestion.updateUI();
-        TrigAreaAnsCheck.InitializeCrystalAmount();
+       
     }
 
     public void GenerateSubQuestion()
@@ -47,16 +47,30 @@ public class GenerateSubMathQuestion : MonoBehaviour
 
     private void SpawnObjects()
     {
-        int spawnCount = ans + Random.Range(2,10); // Ensures count is more than ans
+        int spawnCount = ans + Random.Range(2, 10); // Ensures count is more than ans
         spawnObj = spawnCount;
-        Debug.Log("Spawning " + spawnCount + "and spawnobj " + spawnObj);
+        Debug.Log("Spawning " + spawnCount + " and spawnObj " + spawnObj);
+
+        // Get reference to TrigAreaAnsCheck
+        TrigAreaAnsCheck trigArea = FindObjectOfType<TrigAreaAnsCheck>();
 
         for (int i = 0; i < spawnCount; i++)
         {
             Vector3 spawnPosition = GetRandomSpawnPosition();
-            Instantiate(objectPrefab, spawnPosition, Quaternion.identity);
+            GameObject newCrystal = Instantiate(objectPrefab, spawnPosition, Quaternion.identity);
+
+            if (trigArea != null)
+            {
+                trigArea.crystalsInTrigger.Add(newCrystal); // Add to the list
+                Debug.Log("Added " + newCrystal.name + " to TrigAreaAnsCheck.");
+            }
+            else
+            {
+                Debug.LogWarning("TrigAreaAnsCheck not found!");
+            }
         }
     }
+
 
     private Vector3 GetRandomSpawnPosition()
     {
@@ -65,9 +79,9 @@ public class GenerateSubMathQuestion : MonoBehaviour
             Vector3 spawnCenter = spawnArea.position; // Center of the spawn area
             Vector3 spawnSize = spawnArea.localScale; // Size of the spawn area
 
-            float x = Random.Range(spawnCenter.x - spawnSize.x / 2, spawnCenter.x + spawnSize.x / 2);
-            float y = Random.Range(spawnCenter.y - spawnSize.y / 2, spawnCenter.y + spawnSize.y / 2);
-            float z = Random.Range(spawnCenter.z - spawnSize.z / 2, spawnCenter.z + spawnSize.z / 2);
+            float x = Random.Range(spawnCenter.x - spawnSize.x / 3, spawnCenter.x + spawnSize.x / 3);
+            float y = Random.Range(spawnCenter.y - spawnSize.y / 3, spawnCenter.y + spawnSize.y / 3);
+            float z = Random.Range(spawnCenter.z - spawnSize.z / 3, spawnCenter.z + spawnSize.z / 3);
 
             return new Vector3(x, y, z);
         }
